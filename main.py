@@ -11,4 +11,11 @@ def display_students():
         print("-----------------------------")
 
 
+def calculate_average():
+    total = sum(student["marks"] for student in students)
+    return total / len(students)
+
+
 display_students()
+
+print("Average Marks:", calculate_average())
