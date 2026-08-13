@@ -13,5 +13,10 @@ students = [
         "name": "Zoya",
         "enrollment": "103",
         "marks": 78
+    },
+    {
+        "name": "Mariam",
+        "enrollment": "104",
+        "marks": 88
     }
 ]
