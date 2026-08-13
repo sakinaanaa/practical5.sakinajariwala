@@ -7,7 +7,7 @@ def display_students():
     for student in students:
         print("Name:", student["name"])
         print("Enrollment Number:", student["enrollment"])
-        print("Marks:", student["marks"])
+       print("Student Marks:", student["marks"])
         print("Grade:", calculate_grade(student["marks"]))
         print("-----------------------------")
 
