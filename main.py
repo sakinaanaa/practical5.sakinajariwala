@@ -16,6 +16,12 @@ def calculate_average():
     return total / len(students)
 
 
+def validate_marks(marks):
+    if 0 <= marks <= 100:
+        return True
+    return False
+
+
 def search_student(name):
     for student in students:
         if student["name"].lower() == name.lower():
